@@ -1,0 +1,727 @@
+{
+  "fontColor": "#000000",
+  "highlightColor": "#ff4800",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services5.arcgis.com/fCBwIV6CpEY8synW/arcgis/rest/services/Wetlands/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Wetlands_2492",
+      "layerId": "0",
+      "baseURL": "https://services5.arcgis.com/fCBwIV6CpEY8synW/arcgis/rest/services/Wetlands/FeatureServer/",
+      "isMapServer": false,
+      "title": "Wetlands",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Wetlands: {name_fr}",
+        "fieldInfos": [
+          {
+            "fieldName": "FID",
+            "label": "FID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "F_id",
+            "label": "F_id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "natural_",
+            "label": "natural_",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "wetland",
+            "label": "wetland",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "addr_state",
+            "label": "addr_state",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ele",
+            "label": "ele",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "gnis_count",
+            "label": "gnis_count",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "gnis_creat",
+            "label": "gnis_creat",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "fieldName": "gnis_featu",
+            "label": "gnis_featu",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "gnis_fea_1",
+            "label": "gnis_fea_1",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "wikidata",
+            "label": "wikidata",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "fixme",
+            "label": "fixme",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "website",
+            "label": "website",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "gnis_cou_1",
+            "label": "gnis_cou_1",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "gnis_state",
+            "label": "gnis_state",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "wikipedia",
+            "label": "wikipedia",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "alt_name",
+            "label": "alt_name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "gnis_edite",
+            "label": "gnis_edite",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            }
+          },
+          {
+            "fieldName": "canvec_UUI",
+            "label": "canvec_UUI",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "name_fr",
+            "label": "name_fr",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "place",
+            "label": "place",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "natural_1",
+            "label": "natural_1",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "salt",
+            "label": "salt",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "tidal",
+            "label": "tidal",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "descriptio",
+            "label": "descriptio",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Shapes/BlueCircleLargeB.png",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADImlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NkRDMzYxRUQzMjIxMUUwQUU5NUVFMEYwMTY0NzUwNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3ODNFRUI4QUQzMjIxMUUwQUU5NUVFMEYwMTY0NzUwNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU2REMzNjFDRDMyMjExRTBBRTk1RUUwRjAxNjQ3NTA1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU2REMzNjFERDMyMjExRTBBRTk1RUUwRjAxNjQ3NTA1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQg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",
+          "contentType": "image/png",
+          "width": 11.25,
+          "height": 11.25
+        }
+      }
+    },
+    {
+      "url": "https://services5.arcgis.com/fCBwIV6CpEY8synW/arcgis/rest/services/Ontario_Archaeological_Sites/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "Ontario_Archaeological_Sites_1399",
+      "layerId": "0",
+      "baseURL": "https://services5.arcgis.com/fCBwIV6CpEY8synW/arcgis/rest/services/Ontario_Archaeological_Sites/FeatureServer/",
+      "isMapServer": false,
+      "title": "Ontario_Archaeological_Sites",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Ontario_Archaeological_Sites: {name}",
+        "fieldInfos": [
+          {
+            "fieldName": "FID",
+            "label": "FID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "F_id",
+            "label": "F_id",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "historic",
+            "label": "historic",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "name",
+            "label": "name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "access_",
+            "label": "access_",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "historic_c",
+            "label": "historic_c",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "site_type",
+            "label": "site_type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "attributio",
+            "label": "attributio",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "canvec_COD",
+            "label": "canvec_COD",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "source",
+            "label": "source",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "canvec_UUI",
+            "label": "canvec_UUI",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "artwork_ty",
+            "label": "artwork_ty",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "note",
+            "label": "note",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ref_nrhp",
+            "label": "ref_nrhp",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "tourism",
+            "label": "tourism",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "start_date",
+            "label": "start_date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "ford",
+            "label": "ford",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "wikidata",
+            "label": "wikidata",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "wikipedia",
+            "label": "wikipedia",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "descriptio",
+            "label": "descriptio",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "website",
+            "label": "website",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "fixme",
+            "label": "fixme",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "notes",
+            "label": "notes",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "historic_1",
+            "label": "historic_1",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "inscriptio",
+            "label": "inscriptio",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "gnis_featu",
+            "label": "gnis_featu",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "ObjectId",
+            "label": "ObjectId",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": []
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/Shapes/OrangeStarLargeB.png",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADImlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMEVFRERERUQyODExMUUwQUU5NUVFMEYwMTY0NzUwNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMEVFRERERkQyODExMUUwQUU5NUVFMEYwMTY0NzUwNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUwRUVERERDRDI4MTExRTBBRTk1RUUwRjAxNjQ3NTA1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUwRUVERERERDI4MTExRTBBRTk1RUUwRjAxNjQ3NTA1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQg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",
+          "contentType": "image/png",
+          "width": 11.25,
+          "height": 11.25
+        }
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": false
+  },
+  "defaultBufferDistance": 5,
+  "maxBufferDistance": 100,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "zoomToFeature": false,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "selectedSearchLayerOnly": false,
+  "isGeodesic": false,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 12,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/RedStickpin.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 22.5,
+      "height": 22.5
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        255,
+        189,
+        1,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Find address or place",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [
+    {
+      "layerId": "Ontario_Archaeological_Sites_1399",
+      "fieldName": "F_id",
+      "fieldValue": "",
+      "symbol": {
+        "angle": 0,
+        "xoffset": 2,
+        "yoffset": 8,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/RedShinyPin.png",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMU7nOPkAAAw2SURBVGhD7Vn7b1PnGQY2CORO7nc7N9txbB/HsWM7ji+5XyAh3EIIsHZQKAgKBQa0sBAoN5FSLqNAB0WsdEWjrdhY6QCtg26l7Uopg1JN2kWttv0w7Q8YYqrad8/zxUfK0DbREhwmzdKjc/E5Pu/zPe/7fO93PGbM/z9ffwSe8dpT9gbdxu/Xe6v3BV3a/pCr6Hfzp4z9+r84Snfu8Dq9u2ur+p8Pe87uD1ZfOxT2fHI47Lmxp8711g6/dnAwUNU2SqF9tcfu9GquAa927ofNdXK80ScvN/vlZFOt2r7SEpADIY8MBlyyG9juc1wd8NinfbUnxPBqBNoz4HXcPtVSJ29MjciZKSF5szMiFzrr5WJXvbw1rQH7DXKmIyhHG7xytN4v+4Me2ey27Y5hmPf2qH3Batdyh/nvZ6aEFYlL0xvlg9mt8t6sZnl3ZrNcxjFxqbtBfj4tIhe57W5UBF+IeKnYwXt7UoyuWqNVvHGk3gsCLQi4Xq73tsmHPa3yLghd7WlR21/PbpErIHexKyJvz2iUX85oVqr9AuRQZ7I/VP1YjML974/Z5tMqH7OaPj+P0f54brvcAJlbfe1DhEDiHZB4n8Sg2NvTm5RSOjnuX+xqkNfag7K1xv77s43BhFEntcVjnzenrFjOo1Y+6etQpG5hexNbkvpoTpvC1ahiv4IyVIdq8num5aXuJtnsscu+OlfHqBPa5K7sbyrMlVfbgooQFSJIiCSuAQycqXdtDrdDuNk7pCbT81pPu2zzOaXfY1s76oS2+7RBR0aa7KmrVoSuQY0rGHWSYLC6OtdxnuAxyXD7IdKQ91xFaq7SKmS1Zu4fdULP1bnWV2WmSVNhvnK2j+d2KGd7B2nFWnkP+ABQKkWNgfv87gZIkdCbU8OyuLJMntTMa0ad0Av1nmBPmUHSJsXLUrtZbiHVWEdMNWXXsOfL00mwSdk5TYA1Q6JDNdcmT9hNMge/sbnGNnXUCTGA9VXWy+G8bEmJi5OFtnL5CKnGYG8iWKpxZWaLIkUzoOtRHZWePW2y1atJVWY60+0v33VXJj8UhNCneZfZym93GgskIz5eWg35crzBp1KPgRN0Pn2f21OtAZlWYpDilFR5xFIiMJcVDwUZPYhnA85Fy5A6M0uKxDI5RbIS4sWflaGC3erT5HC4RlBv8pSrUrqLCyU9IUFMuO7RihIYgukHDw2Z443ehCMRz8yj9TVntnrtsgTF3WcySochT1oKsiWUmyEumEZNZoaYU1OlJCVZ3FnpMq/cIEttZUD5wSccpnEPBaHDYfe3MOq3jmD0D0c8qAe7PO2yyvqqCllmL5cVwPaaoXOPV5bKKij4pGaRDa4K2ea130HH3fxQEMFCbcKeQNUJrG/kR21cKvixLKjCbF+pgl/lMCuQ2IC7UraBVD+2KHrBkgGwyU6/9jkGYfTr5kxH3fgdPueFTW67WuOcRh92IORW6jDgpzD6cCxZ6yQhC5VQpPgd+jUZoGLVVtld68SayCno1F852eybOGpKPReoOrbCYZFDYS/anRCC0mQH8BSUYdBUaC0IPQ1iGxH4DhDaWmNTJJBigmU51LKh1XEIluayw69InRoVQodDnnnrqqyyEm3K6+0heRYrTyqzEUQwy8sWjP4mBL7GYVKk+t1WGUTgOwE93XgNiQ54HBgUDxZ6PtXHwVzWxZQUX24843W8v7CiTLb7XXIRaxmsg4aMAAE+DnejStxn7ej1syfgVLXF7zDXqO/hamoQuA462VwreJHC9LtzbmqoMGak4GhmBHVnRplRTjQF5AKW1TNKi2QdCx+j3gsbZj+2AcfKAKgCFarVsMweSkVeRzJzYevrcMz3C0y7FzEJb8D8BPvfHDNCg7XOWUyrrhIj3guE1EozkJspM0GKoz69pFA6iwuUXZMM020XUm0v3I/GsM3rUCp145peEOL+Fpxnyr2G9F3tRL35nZdjRmiX37mck2a7oUBOw6q5fPZmZ4g1fTIm0XxVM49YiqFaoayACnS7vUi350MupJwN3YBZkebaiQNDQphUqQreDPllCfbXVlX8LaaEFllLVfB7kfuvw647jfmSOWmSFCcnSQTNKdMJPZ3wuoVoabi/RhEtUerxHM1hf9ClvmMLdKLRKy/jTdECSynuN8eOEAxh9jykSiQ/W02aJ/GubSPSyox+LDt+kqSDmCE5UWpyMqS7pED2+m1yMuJSJKksVVmJ+3g831wswbwstEgGWH+d7Kp1RQmZPo2ZQoN+pwZCX9qQYkybzSjwY3i/xvQqTkmUtIlxkj5xolLMCMWWmAtlu9si86BOq6FQ/Lk56OkyxIH7rWmTpSItFQ2rW87i1dd8S5nMKTciBU2/jRkhPgjK/IaNphnBtCH1OKm+1ESHsqoGlGQyoVY+OmmiLCVFPNmZYstIF2NKEogmgnyS6sZZa3wpucFll/rCPKXaYmvpzZgSOhR2L2ENlacmS1FSEkwhE6tUE9xJk+VQiq7HoFXgUKkwkfvY4pjgeVNaitSjC19oLYM72lGTBdJSlIv6KuXcdDqmhDC5jkOnfN6HJQHVmIw047YMS4JAbhYCyxOuXKuxPGBqOfHyhGnmwoqU8KO+AjmZUpuTJR3GQumCKTRDHdYma+tnnZGYdd/6XyBj+ZfIWqflM74YSQEhLrsTx08A4iQHq1Wqx3WPDXVCQh4s8jRseUxYoBAXdm4QqwGxZqjTi/cJB4LVL8VKHZIhuAj7BvDNXbWaZbVmuRlB6mSDBEmlRpEGY5gcNYf0iagp1pVCPOorAWmXrGqrAuSCUJMvR3b7nZfOd0aSYkHoX4jggRMAtvrxbYaCfEyOLy5AMddkp0s2ltz5ifGw74mSOCFOkkCqGMFboo7GlWoB6qkYZCwwlfqCHDUvDQacr/5kSjD1QZLRFeFWKQLEAZOARIBvZiYDGUDWtytKejHHXFgIe+7CRNtlyJG+0jzpxjaEucaPtLJloI6yMiWAY5rKQmsJ57A/YgmxNKq8/swHwmu4KuOjipBICpAOZAN5QBFQApQB5Z7MtHZMlAexDrp9LFwth+ucX/RXW2+vtJu+YOew3G76x4Db9meo+lNgSXNhTlZUcQ4YB+6B/FV5NxmqwtxOixIpwLaYBAArYAecgAuoBlpNpso/hBuaPp09u+/HVrO1y+fz9T3at6CvZ0ZPZ1FREe/JjQ4MlY4HqD4H7oGQ0gtfV4ZkqAqDMAImwAZUATWAH6gDQkAYo7Hd5/VJoDYgVpN1IPo9ryNhkrcAVDUfyARSAf6FQlJUis8fMaV0dYanGZXRyTAYZ5QISdQDTUArwD+B28eNHXcuMSFJCvINX8bHxS/GucbodbzeGx0IqlQKUG2S0pWi4VClESE1PNX4w0wFjh7rhbVCZbRoUFSDREiC76K7AP752zt2zNjPkhKTRNO0v0bP8/t2gBNmBKgFqBZJUSnWIgeNNaqn3ogS0h2ND+CD+ECOZiXgBoJRMgyyE+gGZgCzgAXAn5KTksVms1/H/kxgepTYFGxboqR82DoBDhIHi+Zwt0r3nXa6RQ+vHdoy04IG4ABYC1SHgTFAqqKTmY39HmAT8D1gPcBzw0lxEJiCTD8aSAVgBHIATgOsJT3t7svG9ZuZvyREZ+OIMb//EyH+dchUowIMmsET34mSmXMPhJh2dEzWqE5oxMxBV4gjpBOiQnQjphydjSkXABoAGgFVIqnuKDGqtRxYFCXJY37Ha3gt76GR0Bnpkv9OoREnNDzlWENMByNAh6MpeADd4VjoNAaqxeJnTVEZKkYSPCYRphrTlGQ4IPwNWjhTma+tWEOctGlEI5pydBfdFJjPqQDTjirRkTiiOim6FQ0iArAu6HoMmqASBPd5nkRYe7yHKrMeOUBGgOnGgeN8x8wYkQlWryGdkJ52fAhzmyOodwhm7OsTK4Pj3MJAqRoJEgye4D4VoatRFaYZ76W7sXbooExrXZ0RTbfhxqCrxBQYTooBGADWFInprQ9VY7B6+0OidDEe8zwVoe3zHt5Lq9bJpGKfUwQ7+OHqjIht393HccR0UnwwR5MTLVOQQXGUGSBrgcEyjZiWOnhMNdi88lqdCH+D7RSV0ckwK4a3PvdNCL+neiidFH+cIzZ82cAAmO86MeY/yTEdWdwMmAoS3Cd4nmrQXJi6JJIKUHkOlq7MiJMhof/Jzz8BTd1Yt7q/vtYAAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "width": 22.5,
+        "height": 22.5
+      }
+    },
+    {
+      "layerId": "Wetlands_2492",
+      "fieldName": "F_id",
+      "fieldValue": "",
+      "symbol": {
+        "angle": 0,
+        "xoffset": 2,
+        "yoffset": 8,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/BlueShinyPin.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 22.5,
+        "height": 22.5
+      }
+    }
+  ],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": []
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "editorDescription": "Search for an address or locate on map",
+  "noFeatureFoundMessage": "No results found",
+  "showCurrentLocationTool": true,
+  "enableDirection": true,
+  "bufferInputOption": "sliderAndTextbox"
+}
